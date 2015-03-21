@@ -1,8 +1,12 @@
 # Macaroonize
 
-Macaroonize converts an image into a photomosaic-style display of macaroons.
-Example input: https://github.com/reverie/macaroonize/blob/master/example_output.png
-Example output: https://github.com/reverie/macaroonize/blob/master/example_output.png
+Macaroonize converts an image into a photomosaic-style display of macaroons. Here's a simple example:
+
+Input: https://github.com/reverie/macaroonize/blob/master/example_input.png
+
+Output: https://github.com/reverie/macaroonize/blob/master/example_output.png
+
+The resulting images are quite large (270x original resolution), so you'll probably want to resize them before using.
 
 ## Installation
 
