@@ -1,0 +1,9 @@
+brew install imagemagick
+brew install ghostscript
+pip install Pillow
+
+convert -background white -fill black -font "Helvetica" -pointsize 18 label:'Yo' text.pn
+convert text.png -trim text_trimmed.png
+convert text_trimmed.png -bordercolor white -border 1x1 text_final.png
+./macaroonize.py text_final.png yo.png
+convert yo.png -size 1440 example.png
